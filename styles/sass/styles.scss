@@ -1,0 +1,27 @@
+@use './partials/setup';
+@use './partials/global';
+@use './partials/header';
+@use './partials/main';
+@use './partials/footer';
+@use './partials/media-queries';
+
+// Font and Sizes:
+// Title Text: Raleway, Bold, 46px. Line height 24px, Letter spacing 1.1px.
+// Quotes: Lora, Regular Italic, 24px. Center, line height 36px, letter spacing 0.6px.
+// Footer Heading: Raleway, Bold, 18px. Line height 24px, letter spacing 0.5px.
+// Body Style: Raleway, Bold, 18px. Line height 36px, letter spacing 0.5px.
+// Body Text: Lora, Regular, 14px. Center, line height 24px, letter spacing 0.3px.
+// Footing: Lora, Regular, 13px. Line height 44px, letter spacing 0.3px.
+
+// Colors:
+// Brown grey: #999999
+// Black: #2E2E2E
+// White: #F6F6F6
+// Black two: #333333
+
+$BrownGrey: #999999;
+$Black: #2E2E2E;
+$White: #F6F6F6;
+$BlackTwo: #333333;
+$Apricot: #DDED9A;
+$ForestGreen: #64A604;

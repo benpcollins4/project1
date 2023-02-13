@@ -224,6 +224,7 @@ html {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+<<<<<<< HEAD
 }
 
 h1 {
@@ -560,4 +561,6 @@ input[type=email] {
 
 .copyrightGreen {
   color: #64A604;
+=======
+>>>>>>> 8633e1ae35884edd3b05d073ab48e1f06050b0ea
 }

@@ -1,0 +1,58 @@
+@use './variables' as *;
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 46px;
+    font-style: bold;
+    line-height: 24px;
+    letter-spacing: 1.1px
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: bold;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: bold;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+main p {
+    font-family: 'Lora', sans-serif;
+    font-size: 14px;
+    // This must be centered
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: $BrownGrey;
+}
+
+footer p {
+    font-family: 'Lora', sans-serif;
+    font-size: 13px;
+    line-height: 44px;
+    letter-spacing: 0.3px;
+    color: $BrownGrey;
+}
+
+footer input {
+    font-family: 'Lora', sans-serif;
+    font-size: 13px;
+}

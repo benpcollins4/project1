@@ -225,3 +225,339 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 46px;
+  font-style: bold;
+  line-height: 24px;
+  letter-spacing: 1.1px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: bold;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: bold;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+main p {
+  font-family: "Lora", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  color: #999999;
+}
+
+footer p {
+  font-family: "Lora", sans-serif;
+  font-size: 13px;
+  line-height: 44px;
+  letter-spacing: 0.3px;
+  color: #999999;
+}
+
+footer input {
+  font-family: "Lora", sans-serif;
+  font-size: 13px;
+}
+
+header .heroImageContainer {
+  background-image: url("../assets/home-1.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+header .wrapper {
+  max-width: 1920px;
+  width: 95%;
+  margin: 0 auto;
+}
+header .headerNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+}
+header .menuList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+  font-style: bold;
+  font-size: 18px;
+  color: black;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+}
+header .menuListItem {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  max-width: 106.25px;
+  margin: 1rem;
+}
+header .menuListItem:hover,
+header .menuListItem:focus {
+  color: #64A604;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  cursor: pointer;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+header .menuListHome {
+  color: #999999;
+}
+header .menuListHome:hover, header .menuListHome:focus {
+  -webkit-transition: none;
+  transition: none;
+  cursor: default;
+  -webkit-transform: unset;
+          transform: unset;
+  color: #999999;
+}
+header .menuListIcon {
+  min-width: 36px;
+  margin: 0;
+  padding: 0;
+}
+
+.flexBoxRecipes {
+  background-color: #F2F2F2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 700px;
+}
+
+.mostPopularRecipes {
+  height: 100vh;
+}
+
+.home-2 {
+  max-width: 1000px;
+}
+
+.home-3 {
+  max-width: 1000px;
+}
+
+.recipeList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.ourRestaurants {
+  background-color: #DDED9A;
+  height: 75vh;
+}
+
+.restaurantsWrapper {
+  max-width: 1920px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.line {
+  border-top: 4px solid;
+  position: absolute;
+  width: 2rem;
+}
+
+.hungryClients {
+  background-color: #DDED9A;
+  height: 75vh;
+}
+
+.hungryClientsContent {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding-top: 8rem;
+}
+
+.quoteBox {
+  padding: 5rem;
+}
+
+.fa-quote-left {
+  position: relative;
+  bottom: 90px;
+  right: 70px;
+  color: #999999;
+}
+
+.fa-quote-right {
+  position: relative;
+  bottom: 50px;
+  left: 70px;
+  color: #999999;
+}
+
+.quotes {
+  font-family: "Lora", sans-serif;
+  color: black;
+  font-size: 24px;
+  font-style: italic;
+  line-height: 36px;
+  letter-spacing: 0.6px;
+}
+
+.fa-chevron-left {
+  color: #2E2E2E;
+  margin-right: 10px;
+}
+
+.fa-chevron-right {
+  color: #2E2E2E;
+  margin-left: 10px;
+}
+
+.fa-chevron-left:hover {
+  color: #999999;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  cursor: pointer;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.fa-chevron-right:hover {
+  color: #999999;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  cursor: pointer;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.emailText {
+  color: #999999;
+}
+
+footer {
+  background-color: #333333;
+}
+
+.footerFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.fa-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  color: #FFFFFF;
+  padding-top: 5px;
+  margin-left: 20px;
+}
+
+.footer h2 {
+  font-size: 36px;
+  color: #64A604;
+  padding-bottom: 2rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
+h3 {
+  color: #FFFFFF;
+  padding-bottom: 2.5rem;
+}
+
+input[type=email] {
+  padding: 8px;
+  background-color: #999999;
+  color: #999999;
+  font-family: "Lora", sans-serif;
+  font-style: italic;
+  border-style: none;
+}
+
+.button {
+  padding: 8px;
+  background-color: #64A604;
+  color: #FFFFFF;
+  border-style: none;
+}
+
+.footer li {
+  padding: 1px;
+  margin: 1px;
+  border-bottom: 1px solid #999999;
+}
+
+.emptyLineFix {
+  list-style-type: none;
+}
+
+.copyright {
+  background-color: #2E2E2E;
+  padding-left: 14.2857142857%;
+}
+
+.copyrightGreen {
+  color: #64A604;
+}

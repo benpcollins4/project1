@@ -1,0 +1,125 @@
+@use './variables' as *;
+
+// Most Popular Recipes
+.flexBoxRecipes {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 700px;
+}
+.mostPopularRecipes {
+    height: 100vh;
+}
+
+// Top Right Picture
+
+.home-2 {
+    max-width: 1000px;
+}
+
+.home-3 {
+    max-width: 1000px;
+}
+
+// Bottom Left Picture
+
+// Picture Flexbox List (6)
+
+.recipeList {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+// Our Restaurants
+
+.ourRestaurants {
+    background-color: $Apricot;
+    height: 75vh;
+}
+
+.restaurantsWrapper {
+    max-width: 1920px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.line {
+    border-top: 4px solid;
+    position: absolute;
+    width: 2rem;
+}
+
+// Flexbox 6 Pictures
+
+// Hungry Clients
+.hungryClients {
+    background-color: $Apricot;
+    height: 75vh;
+
+}
+.hungryClientsContent {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding-top: 8rem;
+}
+
+.quoteBox {
+    padding: 5rem;
+}
+
+.fa-quote-left {
+    position: relative;
+    bottom: 90px;
+    right: 70px;
+    color: $BrownGrey;
+}
+
+.fa-quote-right {
+    position: relative;
+    bottom: 50px;
+    left: 70px;
+    color: $BrownGrey;
+}
+
+.quotes {
+    font-family: 'Lora', sans-serif;
+    color: black;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 36px;
+    // Centered
+    letter-spacing: 0.6px;
+}
+
+.fa-chevron-left {
+    color: $Black;
+    margin-right: 10px;
+}
+
+.fa-chevron-right {
+    color: $Black;
+    margin-left: 10px;
+}
+
+.fa-chevron-left:hover {
+    color: $BrownGrey;
+    transition: all 250ms ease-in-out;
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.fa-chevron-right:hover {
+    color: $BrownGrey;
+    transition: all 250ms ease-in-out;
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.emailText {
+    color: $BrownGrey;
+}

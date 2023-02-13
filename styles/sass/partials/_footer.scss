@@ -1,0 +1,83 @@
+@use './variables' as *;
+
+// Footer Styles (nesting)
+footer {
+    background-color: $BlackTwo;
+}
+
+.footerFlex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.fa-ul {
+    display: flex;
+    gap: 20px;
+    color: $White;
+    padding-top: 5px;
+	margin-left: 20px;
+}
+
+.footer h2 {
+    font-size: 36px;
+    color: $ForestGreen;
+    padding-bottom: 2rem;
+}
+
+.footer p {
+    margin: 0;
+}
+
+h3 {
+    color: $White;
+    padding-bottom: 2.5rem;
+}
+
+input[type='email'] {
+    padding: 8px;
+    background-color: $BrownGrey;
+    color: $BrownGrey;
+    font-family: 'Lora', sans-serif;
+    font-style: italic;
+    border-style: none;
+}
+
+.button {
+    padding: 8px;
+    background-color: $ForestGreen;
+    color: $White;
+    border-style: none;
+}
+
+.footer li {
+    padding: 1px;
+    margin: 1px;
+    border-bottom: 1px solid $BrownGrey;
+}
+
+.emptyLineFix {
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.copyright {
+    background-color: $Black;
+    padding-left: calc(100% / 7);
+}
+
+.copyrightGreen {
+    color: #64A604;
+}

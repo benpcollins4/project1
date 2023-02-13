@@ -224,7 +224,6 @@ html {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-<<<<<<< HEAD
 }
 
 h1 {
@@ -365,22 +364,10 @@ header .menuListIcon {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  max-width: 700px;
 }
 
-.mostPopularRecipes {
-  height: 100vh;
-}
-
-.home-2 {
-  max-width: 1000px;
-}
-
-.home-3 {
-  max-width: 1000px;
+.recipeItem {
+  width: 50%;
 }
 
 .recipeList {
@@ -561,6 +548,4 @@ input[type=email] {
 
 .copyrightGreen {
   color: #64A604;
-=======
->>>>>>> 8633e1ae35884edd3b05d073ab48e1f06050b0ea
 }

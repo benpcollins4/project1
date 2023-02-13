@@ -5,22 +5,25 @@
     background-color: #F2F2F2;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    max-width: 700px;
 }
-.mostPopularRecipes {
-    height: 100vh;
+
+.recipeItem {
+    width: 50%;
 }
+
+// .mostPopularRecipes {
+
+// }
 
 // Top Right Picture
 
-.home-2 {
-    max-width: 1000px;
-}
+// .home-2 {
 
-.home-3 {
-    max-width: 1000px;
-}
+// }
+
+// .home-3 {
+
+// }
 
 // Bottom Left Picture
 
